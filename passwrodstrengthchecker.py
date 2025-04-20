@@ -37,7 +37,7 @@ def password_checker(password):
         st.progress(score/4)
     
 
-st.title("🔐 Password Strength Checker")
+st.title("Password Strength Checker")
 password = st.text_input("Enter your password:")
 password_checker(password)
 
